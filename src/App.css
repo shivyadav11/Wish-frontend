@@ -1,0 +1,80 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+h1 {
+  margin-bottom:80px;
+  
+}
+.blink-text {
+  font-weight: 900;
+  font-size: 32px;
+  animation: blinkColors 1.5s infinite;
+}
+
+/* 🎄 Multi-color blinking animation */
+@keyframes blinkColors {
+  0% {
+    color: #FF9933 ;        /* red */
+    text-shadow: 0 0 10px #FF9933 ;
+  }
+  20% {
+    color: #000080;        /* yellow */
+    text-shadow: 0 0 10px #000080;
+  }
+  40% {
+    color: #138808;        /* green */
+    text-shadow: 0 0 10px #4caf50;
+  }
+  60% {
+     
+    color: #FF9933;        /* blue */
+    text-shadow: 0 0 10px #FF9933;
+  }
+  80% {
+    color: #000080;        /* pink */
+    text-shadow: 0 0 10px #000080;
+  }
+  100% {
+    color: #138808;        /* orange */
+    text-shadow: 0 0 10px #138808;
+  }
+}
