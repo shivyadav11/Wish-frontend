@@ -19,7 +19,7 @@ export default function WishForm({ setWish, setLoading }) {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/wish/generate",
+        "https://wish-backend-ldls.onrender.com/",
         form
       );
       setWish(res.data.wish);
